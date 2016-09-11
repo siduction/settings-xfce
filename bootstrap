@@ -70,7 +70,7 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 
 [ -d ./etc ] && rm -rf ./etc
 [ -d ./live ] && rm -rf ./live
-[ -d ./schemas] && rm -rf ./schemas
+[ -d ./schemas ] && rm -rf ./schemas
 cp -r ./template/* .
 
 
