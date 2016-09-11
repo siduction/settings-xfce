@@ -1,0 +1,11 @@
+[Unit]
+Description=XFCE cheatcodes in live media
+ConditionPathExists=/usr/share/patience-xfce-settings/
+After=patience-common-setting.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/patience-xfce-settings/xfce-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

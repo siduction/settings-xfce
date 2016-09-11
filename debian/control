@@ -1,0 +1,42 @@
+Source: patience-xfce-settings
+Section: misc
+Priority: optional
+Maintainer: Alf Gaida <agaida@siduction.org>
+Uploaders: Torsten Wohlfarth <towo@siduction.org>,
+           Ovidiu Angelescu <convbsd@siduction.net>
+Build-Depends: debhelper (>= 9),
+               dh-systemd
+Standards-Version: 3.9.8
+Homepage: https://git.siduction.org/extra/settings-xfce
+Vcs-Git: https://git.siduction.org/extra/settings-xfce.git
+Vcs-Browser: https://git.siduction.org/extra/settings-xfce.git
+
+# xfce Settings
+Package: patience-xfce-settings
+Architecture: all
+Depends:  ${misc:Depends},
+          patience-common-settings,
+          xfwm4 | x-window-manager,
+          xfce4-clipman-plugin
+Description: Xfce settings in installed mode
+ Provides default settings for appearance and applications of the Xfce
+ desktop.
+ .
+ This overrides Xfce's defaults used for new users, all settings remain
+ configurable by the local user and don't override already existing user
+ profiles.
+
+Package: patience-xfce-livesettings
+Architecture: all
+Depends: ${misc:Depends},
+         sidu-installer (>= 2014.01.10),
+         siduction-icons,
+         patience-xfce-artwork,
+         patience-xfce-settings,
+         patience-common-livesettings,
+         patience-sddm-livesettings
+         | patience-ligthdm-gtk-livesettings
+         | patience-gdm3-livesettings
+Description: Xfce settings in live mode
+ Provides default settings for appearance and applications of the Xfce
+ desktop in live mode.
