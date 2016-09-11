@@ -1,6 +1,0 @@
-31d5c05328e476db938d5c8d72a32355  lib/systemd/system/whiteroom-xfce-livesettings.service
-d8b7fdd20d733a1877b58c42cda10961  usr/share/doc/whiteroom-xfce-livesettings/changelog.gz
-858557f8c4ca2ecd60319d6cffeb13b9  usr/share/doc/whiteroom-xfce-livesettings/copyright
-d32e3f2307a96d45ac6331903920a82e  usr/share/lintian/overrides/whiteroom-xfce-livesettings
-5e5af8c66e7546e6b483eb8cbd4848a3  usr/share/whiteroom-xfce-settings/live/README
-e4d2eb8945cb12e78cfac2b1ac6ec0c3  usr/share/whiteroom-xfce-settings/xfce-cheatcodes
