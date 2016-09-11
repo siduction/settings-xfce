@@ -1,2 +1,2 @@
-xfce/etc/*  usr/share/paintitblack-xfce-settings/etc
-xfce/schemas usr/share/paintitblack-xfce-settings/
+etc      usr/share/paintitblack-xfce-settings/
+schemas  usr/share/paintitblack-xfce-settings/

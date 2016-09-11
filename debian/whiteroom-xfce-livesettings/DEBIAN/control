@@ -1,0 +1,13 @@
+Package: whiteroom-xfce-livesettings
+Source: whiteroom-xfce-settings
+Version: 2016.08.05
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 28
+Depends: init-system-helpers (>= 1.18~), sidu-installer (>= 2014.01.10), siduction-icons, whiteroom-xfce-artwork, whiteroom-xfce-settings, whiteroom-common-livesettings, whiteroom-sddm-livesettings | whiteroom-ligthdm-gtk-livesettings | whiteroom-gdm3-livesettings
+Section: misc
+Priority: optional
+Homepage: https://git.siduction.org/extra/settings-xfce
+Description: Xfce settings in live mode
+ Provides default settings for appearance and applications of the Xfce
+ desktop in live mode.
