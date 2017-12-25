@@ -1,3 +1,11 @@
+patience-xfce-settings (2017.2.0-1) unstable; urgency=medium
+
+  * New release
+  * Bumped VERSION, Standards, compat
+  * fixed dependencies for fixed apt behaviour
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Dec 2017 22:17:13 +0100
+
 patience-xfce-settings (2017.1.0-1) unstable; urgency=medium
 
   * release branding

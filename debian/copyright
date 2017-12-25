@@ -3,13 +3,13 @@ Upstream-Name: settings-xfce
 Source: https://git.siduction.org/extra/settings-xfce.git
 
 Files: *
-Copyright: 2012-2016 Alf Gaida <agaida@siduction.org>
+Copyright: 2012-2017 Alf Gaida <agaida@siduction.org>
            2012-2015 Ovidiu Angelescu <convbsd@siduction.net>
            2011-2014 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
 Files: *
-Copyright: 2012-2016 Alf Gaida <agaida@siduction.org>
+Copyright: 2012-2017 Alf Gaida <agaida@siduction.org>
            2011-2014 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
