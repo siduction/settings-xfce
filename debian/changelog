@@ -1,3 +1,9 @@
+patience-xfce-settings (2018.1.0-2) unstable; urgency=medium
+
+  * fixed grub defaults 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Dec 2017 01:55:54 +0100
+
 patience-xfce-settings (2018.1.0-1) unstable; urgency=medium
 
   * release 18.1
