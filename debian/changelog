@@ -1,3 +1,9 @@
+patience-xfce-settings (2018.1.0-3) unstable; urgency=medium
+
+  * Fixed thunar plank item 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 30 Dec 2017 22:22:25 +0100
+
 patience-xfce-settings (2018.1.0-2) unstable; urgency=medium
 
   * fixed grub defaults 
