@@ -1,12 +1,12 @@
 patience-xfce-settings (2018.1.0-3) unstable; urgency=medium
 
-  * Fixed thunar plank item 
+  * Fixed thunar plank item
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 30 Dec 2017 22:22:25 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sat, 30 Dec 2017 22:27:36 +0100
 
 patience-xfce-settings (2018.1.0-2) unstable; urgency=medium
 
-  * fixed grub defaults 
+  * fixed grub defaults
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 27 Dec 2017 01:55:54 +0100
 
@@ -38,7 +38,7 @@ patience-xfce-settings (2016.1.0-3) unstable; urgency=medium
 
 patience-xfce-settings (2016.1.0-2) unstable; urgency=medium
 
-  * killed livesettings.postinst 
+  * killed livesettings.postinst
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 28 Jan 2017 12:07:45 +0100
 
