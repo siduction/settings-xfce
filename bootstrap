@@ -2,7 +2,7 @@
 set -e
 
 
-source ./functions.sh
+[ -e ../template/zfunctions.sh ] && source ../template/zfunctions.sh
 
 source_version_info
 debian_changelog
@@ -15,71 +15,56 @@ debian_rules
 # debian
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
-    ./debtemplate/copyright \
+    ../template/debian/copyright \
     > ./debian/copyright
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/get-template \
-    > ./debian/get-template
-chmod 755 ./debian/get-template
-
-
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/settings.install \
     > ./debian/${CODENAME_SAFE}-xfce-settings.install
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/settings.postinst \
     > ./debian/${CODENAME_SAFE}-xfce-settings.postinst
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/livesettings.install \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.install
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/livesettings.lintian-overrides \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.lintian-overrides
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/settings.postrm \
     > ./debian/${CODENAME_SAFE}-xfce-settings.postrm
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/livesettings.preinst \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.preinst
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/livesettings.service \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.service
+
 
 ## templating
 
 [ -d ./etc ] && rm -rf ./etc
 [ -d ./live ] && rm -rf ./live
 [ -d ./schemas ] && rm -rf ./schemas
-cp -r ./template/* .
-
+cp -a ./template/etc .
+cp -a ./template/live .
+cp -a ./template/schemas .
 
 
 
 
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./template/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml \
     > ./etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     template/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml \
     > ./etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
 
