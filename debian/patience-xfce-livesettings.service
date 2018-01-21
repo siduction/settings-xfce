@@ -1,5 +1,5 @@
 [Unit]
-Description=XFCE cheatcodes in live media
+Description=Xfce cheatcodes in live media
 ConditionPathExists=/usr/share/patience-xfce-settings/
 After=patience-common-setting.service
 

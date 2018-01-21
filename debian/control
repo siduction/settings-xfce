@@ -10,7 +10,6 @@ Homepage: https://git.siduction.org/extra/settings-xfce
 Vcs-Git: https://git.siduction.org/extra/settings-xfce.git
 Vcs-Browser: https://git.siduction.org/extra/settings-xfce.git
 
-# xfce Settings
 Package: patience-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
@@ -19,7 +18,7 @@ Depends: ${misc:Depends},
          patience-common-settings,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
-Description: Xfce settings in installed mode
+Description: Xfce settings (installed mode)
  Provides default settings for appearance and applications of the Xfce
  desktop.
  .
@@ -37,6 +36,7 @@ Depends: ${misc:Depends},
          patience-sddm-livesettings
          | patience-ligthdm-gtk-livesettings
          | patience-gdm3-livesettings
-Description: Xfce settings in live mode
+Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
+
