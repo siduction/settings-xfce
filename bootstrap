@@ -19,31 +19,31 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     > ./debian/copyright
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./debtemplate/settings.install \
+    ../template/debian/${CODENAME_SAFE}-xfce-settings.install \
     > ./debian/${CODENAME_SAFE}-xfce-settings.install
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./debtemplate/settings.postinst \
+    ../template/debian/${CODENAME_SAFE}-xfce-settings.postinst \
     > ./debian/${CODENAME_SAFE}-xfce-settings.postinst
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./debtemplate/livesettings.install \
+    ../template/debian/${CODENAME_SAFE}-xfce-livesettings.install \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.install
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./debtemplate/livesettings.lintian-overrides \
+    ../template/debian/${CODENAME_SAFE}-xfce-livesettings.lintian-overrides \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.lintian-overrides
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./debtemplate/settings.postrm \
+    ../template/debian/${CODENAME_SAFE}-xfce-settings.postrm \
     > ./debian/${CODENAME_SAFE}-xfce-settings.postrm
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./debtemplate/livesettings.preinst \
+    ../template/debian/${CODENAME_SAFE}-xfce-livesettings.preinst \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.preinst
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./debtemplate/livesettings.service \
+    ../template/debian/${CODENAME_SAFE}-xfce-livesettings.service \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.service
 
 
@@ -57,15 +57,12 @@ cp -a ./template/live .
 cp -a ./template/schemas .
 
 
-
-
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ./template/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml \
+    ../template/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml \
     > ./etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    template/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml \
+    ../template/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml \
     > ./etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
 
 grub_template xfce
