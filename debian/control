@@ -18,11 +18,11 @@ Depends: ${misc:Depends},
          @CODENAME_SAFE@-common-settings,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
-Description: XFCE settings in installed mode
- Provides default settings for appearance and applications of the XFCE
+Description: Xfce settings (installed mode)
+ Provides default settings for appearance and applications of the Xfce
  desktop.
  .
- This overrides XFCE's defaults used for new users, all settings remain
+ This overrides Xfce's defaults used for new users, all settings remain
  configurable by the local user and don't override already existing user
  profiles.
 
@@ -36,6 +36,7 @@ Depends: ${misc:Depends},
          @CODENAME_SAFE@-sddm-livesettings
          | @CODENAME_SAFE@-ligthdm-gtk-livesettings
          | @CODENAME_SAFE@-gdm3-livesettings
-Description: XFCE settings in live mode
- Provides default settings for appearance and applications of the XFCE
+Description: Xfce settings (live mode)
+ Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
+

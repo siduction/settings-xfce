@@ -52,9 +52,9 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 [ -d ./etc ] && rm -rf ./etc
 [ -d ./live ] && rm -rf ./live
 [ -d ./schemas ] && rm -rf ./schemas
-cp -a ./template/etc .
-cp -a ./template/live .
-cp -a ./template/schemas .
+cp -a ../template/etc .
+cp -a ../template/live .
+cp -a ../template/schemas .
 
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
