@@ -4,21 +4,21 @@ Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
-               dh-systemd
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.4
 Homepage: https://git.siduction.org/extra/settings-xfce
+Vcs-Browser: https://git.siduction.org/extra/settings-xfce
 Vcs-Git: https://git.siduction.org/extra/settings-xfce.git
-Vcs-Browser: https://git.siduction.org/extra/settings-xfce.git
 
-# xfce Settings
 Package: paintitblack-xfce-settings
 Architecture: all
-Depends:  ${misc:Depends},
-          paintitblack-common-settings,
-          xfwm4 | x-window-manager,
-          xfce4-clipman-plugin
-Description: Xfce settings in installed mode
+Depends: ${misc:Depends},
+         paintitblack-xfce-artwork,
+         paintitblack-sddm-settings | paintitblack-lightdm-gtk-settings | paintitblack-gdm3-settings,
+         paintitblack-common-settings,
+         xfwm4 | x-window-manager,
+         xfce4-clipman-plugin
+Description: Xfce settings (installed mode)
  Provides default settings for appearance and applications of the Xfce
  desktop.
  .
@@ -29,7 +29,6 @@ Description: Xfce settings in installed mode
 Package: paintitblack-xfce-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         sidu-installer (>= 2014.01.10),
          siduction-icons,
          paintitblack-xfce-artwork,
          paintitblack-xfce-settings,
@@ -37,6 +36,7 @@ Depends: ${misc:Depends},
          paintitblack-sddm-livesettings
          | paintitblack-ligthdm-gtk-livesettings
          | paintitblack-gdm3-livesettings
-Description: Xfce settings in live mode
+Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
+
