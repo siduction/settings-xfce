@@ -19,32 +19,30 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     > ./debian/copyright
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ../template/debian/${CODENAME_SAFE}-xfce-settings.install \
-    > ./debian/${CODENAME_SAFE}-xfce-settings.install
-
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ../template/debian/${CODENAME_SAFE}-xfce-settings.postinst \
-    > ./debian/${CODENAME_SAFE}-xfce-settings.postinst
-
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ../template/debian/${CODENAME_SAFE}-xfce-livesettings.install \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.install
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ../template/debian/${CODENAME_SAFE}-xfce-livesettings.lintian-overrides \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.lintian-overrides
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ../template/debian/${CODENAME_SAFE}-xfce-settings.postrm \
-    > ./debian/${CODENAME_SAFE}-xfce-settings.postrm
-
+    ../template/debian/${CODENAME_SAFE}-xfce-livesettings.postinst \
+    > ./debian/${CODENAME_SAFE}-xfce-livesettings.postinst
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ../template/debian/${CODENAME_SAFE}-xfce-livesettings.preinst \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.preinst
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ../template/debian/${CODENAME_SAFE}-xfce-livesettings.service \
     > ./debian/${CODENAME_SAFE}-xfce-livesettings.service
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    ../template/debian/${CODENAME_SAFE}-xfce-settings.install \
+    > ./debian/${CODENAME_SAFE}-xfce-settings.install
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    ../template/debian/${CODENAME_SAFE}-xfce-settings.postinst \
+    > ./debian/${CODENAME_SAFE}-xfce-settings.postinst
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    ../template/debian/${CODENAME_SAFE}-xfce-settings.postrm \
+    > ./debian/${CODENAME_SAFE}-xfce-settings.postrm
 
 
 ## templating
