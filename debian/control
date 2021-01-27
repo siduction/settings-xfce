@@ -1,4 +1,4 @@
-Source: patience-xfce-settings
+Source: c-blues-xfce-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,12 +10,12 @@ Homepage: https://git.siduction.org/extra/settings-xfce
 Vcs-Git: https://git.siduction.org/extra/settings-xfce.git
 Vcs-Browser: https://git.siduction.org/extra/settings-xfce.git
 
-Package: patience-xfce-settings
+Package: c-blues-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
-         patience-xfce-artwork,
-         patience-sddm-settings | patience-lightdm-gtk-settings | patience-gdm3-settings,
-         patience-common-settings,
+         c-blues-xfce-artwork,
+         c-blues-sddm-settings | c-blues-lightdm-gtk-settings | c-blues-gdm3-settings,
+         c-blues-common-settings,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
 Description: Xfce settings (installed mode)
@@ -26,16 +26,16 @@ Description: Xfce settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: patience-xfce-livesettings
+Package: c-blues-xfce-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         patience-xfce-artwork,
-         patience-xfce-settings,
-         patience-common-livesettings,
-         patience-sddm-livesettings
-         | patience-ligthdm-gtk-livesettings
-         | patience-gdm3-livesettings
+         c-blues-xfce-artwork,
+         c-blues-xfce-settings,
+         c-blues-common-livesettings,
+         c-blues-sddm-livesettings
+         | c-blues-ligthdm-gtk-livesettings
+         | c-blues-gdm3-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
