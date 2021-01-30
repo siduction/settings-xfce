@@ -1,8 +1,12 @@
-c-blues-xfce-settings (2021.1.0) UNRELEASED; urgency=medium
+c-blues-xfce-settings (2021.1.0) unstable; urgency=medium
 
+  [ Hendrik Lehmbruch ]
   * preparing 21.1 release c-blues
 
- -- Hendrik Lehmbruch <hendrikl@siduction.org>  Wed, 27 Jan 2021 20:16:04 +0100
+  [ Torsten Wohlfarth ]
+  * build and upload for release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 30 Jan 2021 18:14:10 +0100
 
 patience-xfce-settings (2018.2.0-1) unstable; urgency=medium
 
