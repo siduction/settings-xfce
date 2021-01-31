@@ -1,4 +1,4 @@
-Source: c-blues-xfce-settings
+Source: cblues-xfce-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,12 +10,12 @@ Homepage: https://git.siduction.org/extra/settings-xfce
 Vcs-Git: https://git.siduction.org/extra/settings-xfce.git
 Vcs-Browser: https://git.siduction.org/extra/settings-xfce.git
 
-Package: c-blues-xfce-settings
+Package: cblues-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-xfce-artwork,
-         c-blues-sddm-settings | c-blues-lightdm-gtk-settings | c-blues-gdm3-settings,
-         c-blues-common-settings,
+         cblues-xfce-artwork,
+         cblues-sddm-settings | cblues-lightdm-gtk-settings | cblues-gdm3-settings,
+         cblues-common-settings,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
 Description: Xfce settings (installed mode)
@@ -26,16 +26,16 @@ Description: Xfce settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: c-blues-xfce-livesettings
+Package: cblues-xfce-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         c-blues-xfce-artwork,
-         c-blues-xfce-settings,
-         c-blues-common-livesettings,
-         c-blues-sddm-livesettings
-         | c-blues-ligthdm-gtk-livesettings
-         | c-blues-gdm3-livesettings
+         cblues-xfce-artwork,
+         cblues-xfce-settings,
+         cblues-common-livesettings,
+         cblues-sddm-livesettings
+         | cblues-ligthdm-gtk-livesettings
+         | cblues-gdm3-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
