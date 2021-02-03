@@ -1,3 +1,9 @@
+cblues-xfce-settings (2021.1.0-3) unstable; urgency=medium
+
+  * set Greybird Dark as Window Theme
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 03 Feb 2021 15:50:11 +0100
+
 cblues-xfce-settings (2021.1.0-2) unstable; urgency=medium
 
   * package changes by hendrikL
