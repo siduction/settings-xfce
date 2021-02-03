@@ -17,7 +17,6 @@ Depends: ${misc:Depends},
          cblues-sddm-settings | cblues-lightdm-gtk-settings | cblues-gdm3-settings,
          cblues-common-settings,
   		 greybird-gtk-theme,
-  		 blackbird-gtk-theme,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
 Description: Xfce settings (installed mode)
