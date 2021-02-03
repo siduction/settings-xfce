@@ -1,3 +1,9 @@
+cblues-xfce-settings (2021.1.0-4) unstable; urgency=medium
+
+  * package commit 6e6fa74c95 whiskermenu and verrve-plugin settings
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 03 Feb 2021 19:10:55 +0100
+
 cblues-xfce-settings (2021.1.0-3) unstable; urgency=medium
 
   * set Greybird Dark as Window Theme
