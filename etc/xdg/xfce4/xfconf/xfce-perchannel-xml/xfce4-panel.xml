@@ -4,35 +4,44 @@
   <property name="panels" type="array">
     <value type="int" value="0"/>
     <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=12;x=0;y=0"/>
+      <property name="position" type="string" value="p=10;x=729;y=884"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
+        <value type="int" value="11"/>
         <value type="int" value="10"/>
         <value type="int" value="4"/>
         <value type="int" value="14"/>
         <value type="int" value="8"/>
         <value type="int" value="7"/>
-        <value type="int" value="9"/>
-        <value type="int" value="3"/>
+        <value type="int" value="18"/>
+        <value type="int" value="17"/>
         <value type="int" value="19"/>
         <value type="int" value="12"/>
+        <value type="int" value="16"/>
         <value type="int" value="6"/>
-        <value type="int" value="15"/>
         <value type="int" value="5"/>
-        <value type="int" value="11"/>
+        <value type="int" value="15"/>
         <value type="int" value="2"/>
       </property>
       <property name="mode" type="uint" value="0"/>
       <property name="size" type="uint" value="30"/>
       <property name="background-alpha" type="uint" value="80"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.040787"/>
+        <value type="double" value="0.156667"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
     </property>
+    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-icon" type="string" value="siduction"/>
+    <property name="plugin-1" type="empty">
+      <property name="show-button-title" type="empty"/>
+      <property name="button-icon" type="empty"/>
     </property>
     <property name="plugin-2" type="string" value="actions">
       <property name="appearance" type="uint" value="0"/>
@@ -49,13 +58,16 @@
         <value type="string" value="-restart"/>
       </property>
     </property>
-    <property name="plugin-3" type="string" value="tasklist">
-      <property name="show-labels" type="bool" value="false"/>
-      <property name="sort-order" type="uint" value="4"/>
-      <property name="flat-buttons" type="bool" value="true"/>
-      <property name="show-handle" type="bool" value="false"/>
+    <property name="plugin-3" type="empty">
+      <property name="show-labels" type="empty"/>
+      <property name="sort-order" type="empty"/>
+      <property name="flat-buttons" type="empty"/>
+      <property name="show-handle" type="empty"/>
     </property>
-    <property name="plugin-5" type="string" value="clock"/>
+    <property name="plugin-5" type="string" value="clock">
+      <property name="digital-format" type="string" value="%T"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="netzwerk-manager-applet"/>
@@ -63,6 +75,11 @@
         <value type="string" value="taskmanager"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="netzwerk-manager-applet"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
     </property>
     <property name="plugin-4" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -70,24 +87,29 @@
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-9" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+    <property name="plugin-9" type="empty">
+      <property name="style" type="empty"/>
     </property>
     <property name="plugin-7" type="string" value="xfce4-verve-plugin"/>
     <property name="plugin-14" type="string" value="pager"/>
-    <property name="plugin-15" type="string" value="cpugraph"/>
+    <property name="plugin-15" type="string" value="power-manager-plugin"/>
     <property name="plugin-19" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
     </property>
     <property name="plugin-10" type="string" value="showdesktop"/>
-    <property name="plugin-11" type="string" value="mixer">
-      <property name="sound-card" type="string" value="Intel82801AAICHAlsamixer"/>
-      <property name="track" type="string" value="Hauptregler"/>
-      <property name="command" type="string" value="xfce4-mixer"/>
+    <property name="plugin-11" type="string" value="whiskermenu">
+      <property name="sound-card" type="empty"/>
+      <property name="track" type="empty"/>
+      <property name="command" type="empty"/>
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+    </property>
+    <property name="plugin-12" type="string" value="xfce4-clipman-plugin"/>
+    <property name="plugin-16" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
-    <property name="plugin-12" type="string" value="xkb-plugin"/>
+    <property name="plugin-17" type="string" value="tasklist"/>
+    <property name="plugin-18" type="string" value="separator"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
