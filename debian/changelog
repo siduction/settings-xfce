@@ -1,3 +1,9 @@
+cblues-xfce-settings (2021.1.0-5) unstable; urgency=medium
+
+  * add greybird-gtk-theme as depend
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 03 Feb 2021 22:46:56 +0100
+
 cblues-xfce-settings (2021.1.0-4) unstable; urgency=medium
 
   * package commit 6e6fa74c95 whiskermenu and verrve-plugin settings
