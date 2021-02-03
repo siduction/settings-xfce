@@ -55,7 +55,7 @@
       <property name="flat-buttons" type="bool" value="true"/>
       <property name="show-handle" type="bool" value="false"/>
     </property>
-    <property name="plugin-5" type="string" value="xfce4-orageclock-plugin"/>
+    <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="netzwerk-manager-applet"/>
