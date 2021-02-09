@@ -1,3 +1,9 @@
+cblues-xfce-settings (2021.1.0-6) unstable; urgency=medium
+
+  * package latest commits up to 7341d662db
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 09 Feb 2021 15:49:16 +0100
+
 cblues-xfce-settings (2021.1.0-5) unstable; urgency=medium
 
   * add greybird-gtk-theme as depend
