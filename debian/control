@@ -1,4 +1,4 @@
-Source: cblues-xfce-settings
+Source: farewell-xfce-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -6,16 +6,16 @@ Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.3
-Homepage: https://git.siduction.org/extra/settings-xfce
-Vcs-Git: https://git.siduction.org/extra/settings-xfce.git
-Vcs-Browser: https://git.siduction.org/extra/settings-xfce.git
+Homepage: https://github.com/siduction/settings-xfce
+Vcs-Git: https://github.com/siduction/settings-xfce.git
+Vcs-Browser: https://github.com/siduction/settings-xfce.git
 
-Package: cblues-xfce-settings
+Package: farewell-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
-         cblues-xfce-artwork,
-         cblues-sddm-settings | cblues-lightdm-gtk-settings | cblues-gdm3-settings,
-         cblues-common-settings,
+         farewell-xfce-artwork,
+         farewell-sddm-settings | farewell-lightdm-gtk-settings | farewell-gdm3-settings,
+         farewell-common-settings,
   		 greybird-gtk-theme,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
@@ -27,16 +27,16 @@ Description: Xfce settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: cblues-xfce-livesettings
+Package: farewell-xfce-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         cblues-xfce-artwork,
-         cblues-xfce-settings,
-         cblues-common-livesettings,
-         cblues-sddm-livesettings
-         | cblues-ligthdm-gtk-livesettings
-         | cblues-gdm3-livesettings
+         farewell-xfce-artwork,
+         farewell-xfce-settings,
+         farewell-common-livesettings,
+         farewell-sddm-livesettings
+         | farewell-ligthdm-gtk-livesettings
+         | farewell-gdm3-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
