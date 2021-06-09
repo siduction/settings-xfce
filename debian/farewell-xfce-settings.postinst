@@ -10,6 +10,10 @@ case "$1" in
         cp -af /usr/share/farewell-xfce-settings/etc/dconf          /etc
         ## grub ##
         cp -af /usr/share/farewell-xfce-settings/etc/default        /etc
+        ## NetworkManager ##
+        cp -af /usr/share/farewell-xfce-settings/etc/NetworkManager           /etc
+        ## iwd ##
+        cp -af /usr/share/farewell-xfce-settings/etc/iwd                      /etc
         ## schemas ##
         cp -afv /usr/share/farewell-xfce-settings/schemas           /usr/share/glib-2.0
         ## skel ##
