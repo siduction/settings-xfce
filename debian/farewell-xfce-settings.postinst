@@ -20,8 +20,6 @@ case "$1" in
         cp -af /usr/share/farewell-xfce-settings/etc/skel/config    /etc/skel/.config
         cp -af /usr/share/farewell-xfce-settings/etc/skel/gtkrc-2.0 /etc/skel/.gtkrc-2.0
         cp -af /usr/share/farewell-xfce-settings/etc/skel/dmrc      /etc/skel/.dmrc
-        cp -af /usr/share/farewell-xfce-settings/etc/skel/gitconfig /etc/skel/.gitconfig
-        cp -af /usr/share/farewell-xfce-settings/etc/skel/gitignore /etc/skel/.gitignore
         ## xdg  ##
         cp -af /usr/share/farewell-xfce-settings/etc/xdg            /etc
         ## settings ##
