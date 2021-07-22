@@ -1,3 +1,9 @@
+farewell-xfce-settings (2021.2.0-1) unstable; urgency=medium
+
+  * set final version
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 22 Jul 2021 14:57:14 +0200
+
 farewell-xfce-settings (2021.1.99-6) unstable; urgency=medium
 
   * fix postinst
