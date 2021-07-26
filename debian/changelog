@@ -1,3 +1,9 @@
+farewell-xfce-settings (2021.2.0-2) unstable; urgency=medium
+
+  * set evince as mimetyp for pdf
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 26 Jul 2021 20:48:38 +0200
+
 farewell-xfce-settings (2021.2.0-1) unstable; urgency=medium
 
   * set final version
