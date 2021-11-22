@@ -36,7 +36,7 @@
     <property name="Engine" type="string" value="balou"/>
     <property name="engines" type="empty">
       <property name="balou" type="empty">
-        <property name="Theme" type="string" value="farewell"/>
+        <property name="Theme" type="string" value="2021-03"/>
       </property>
     </property>
   </property>

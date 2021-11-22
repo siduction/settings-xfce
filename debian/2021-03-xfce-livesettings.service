@@ -1,0 +1,11 @@
+[Unit]
+Description=Xfce cheatcodes in live media
+ConditionPathExists=/usr/share/2021-03-xfce-settings/
+After=2021-03-common-setting.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/2021-03-xfce-settings/xfce-cheatcodes start
+
+[Install]
+WantedBy=graphical.target
