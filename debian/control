@@ -1,4 +1,4 @@
-Source: 2021-03-xfce-settings
+Source: wintersky-xfce-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,12 +10,12 @@ Homepage: https://github.com/siduction/settings-xfce
 Vcs-Git: https://github.com/siduction/settings-xfce.git
 Vcs-Browser: https://github.com/siduction/settings-xfce.git
 
-Package: 2021-03-xfce-settings
+Package: wintersky-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
-         2021-03-xfce-artwork,
-         2021-03-sddm-settings | 2021-03-lightdm-gtk-settings | 2021-03-gdm3-settings,
-         2021-03-common-settings,
+         wintersky-xfce-artwork,
+         wintersky-sddm-settings | wintersky-lightdm-gtk-settings | wintersky-gdm3-settings,
+         wintersky-common-settings,
   		 greybird-gtk-theme,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
@@ -27,16 +27,16 @@ Description: Xfce settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: 2021-03-xfce-livesettings
+Package: wintersky-xfce-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         2021-03-xfce-artwork,
-         2021-03-xfce-settings,
-         2021-03-common-livesettings,
-         2021-03-sddm-livesettings
-         | 2021-03-ligthdm-gtk-livesettings
-         | 2021-03-gdm3-livesettings
+         wintersky-xfce-artwork,
+         wintersky-xfce-settings,
+         wintersky-common-livesettings,
+         wintersky-sddm-livesettings
+         | wintersky-ligthdm-gtk-livesettings
+         | wintersky-gdm3-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
