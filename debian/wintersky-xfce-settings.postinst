@@ -11,9 +11,9 @@ case "$1" in
         ## grub ##
         cp -af /usr/share/wintersky-xfce-settings/etc/default        /etc
         ## NetworkManager ##
-        # cp -af /usr/share/wintersky-xfce-settings/etc/NetworkManager           /etc
+        cp -af /usr/share/wintersky-xfce-settings/etc/NetworkManager           /etc
         ## iwd ##
-        # cp -af /usr/share/wintersky-xfce-settings/etc/iwd                      /etc
+        cp -af /usr/share/wintersky-xfce-settings/etc/iwd                      /etc
         ## schemas ##
         cp -afv /usr/share/wintersky-xfce-settings/schemas           /usr/share/glib-2.0
         ## skel ##
