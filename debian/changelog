@@ -1,3 +1,15 @@
+wintersky-xfce-settings (2021.2.99-2) unstable; urgency=medium
+
+  * put iwd to livesettings.psotinst from settings.postinst
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 17 Dec 2021 13:55:59 +0100
+
+wintersky-xfce-settings (2021.2.99-1) unstable; urgency=medium
+
+  * prepare wintersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 03 Dec 2021 19:51:28 +0100
+
 farewell-xfce-settings (2021.2.0-2) unstable; urgency=medium
 
   * set evince as mimetyp for pdf
@@ -18,7 +30,7 @@ farewell-xfce-settings (2021.1.99-6) unstable; urgency=medium
 
 farewell-xfce-settings (2021.1.99-5) unstable; urgency=medium
 
-  * remive plank
+  * remove plank
 
  -- Torsten Wohlfarth <towo@siduction.org>  Thu, 08 Jul 2021 22:42:10 +0200
 
