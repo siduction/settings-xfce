@@ -1,0 +1,11 @@
+[Unit]
+Description=Xfce cheatcodes in live media
+ConditionPathExists=/usr/share/mow-xfce-settings/
+After=mow-common-setting.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/mow-xfce-settings/xfce-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

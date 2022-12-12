@@ -7,9 +7,9 @@ set -e
 case "$1" in
     configure)
         ## NetworkManager ##
-        cp -af /usr/share/wintersky-xfce-settings/etc/NetworkManager           /etc
+        cp -af /usr/share/mow-xfce-settings/etc/NetworkManager           /etc
         ## iwd ##
-        cp -af /usr/share/wintersky-xfce-settings/etc/iwd                      /etc
+        cp -af /usr/share/mow-xfce-settings/etc/iwd                      /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
