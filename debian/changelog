@@ -1,3 +1,9 @@
+mow-xfce-settings (2022.1.0-2) unstable; urgency=medium
+
+  * fix wallpaper (hopefully)
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 12 Dec 2022 22:21:05 +0100
+
 mow-xfce-settings (2022.1.0-1) unstable; urgency=medium
 
   * prepare Msters of War release
