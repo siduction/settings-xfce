@@ -1,3 +1,9 @@
+mow-xfce-settings (2022.1.0-3) unstable; urgency=medium
+
+  * try do disable screenlock
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 22 Dec 2022 19:04:00 +0100
+
 mow-xfce-settings (2022.1.0-2) unstable; urgency=medium
 
   * fix wallpaper (hopefully)
