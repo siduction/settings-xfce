@@ -1,3 +1,9 @@
+mow-xfce-settings (2022.1.0-4) unstable; urgency=medium
+
+  * [vinzv] add Add common Terminal shortcut
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 27 Dec 2022 16:23:02 +0100
+
 mow-xfce-settings (2022.1.0-3) unstable; urgency=medium
 
   * try do disable screenlock
