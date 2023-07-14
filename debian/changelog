@@ -1,3 +1,9 @@
+mow-xfce-settings (2022.1.0-5) unstable; urgency=medium
+
+  * package https://github.com/siduction/settings-xfce/pull/6
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 14 Jul 2023 14:11:43 +0200
+
 mow-xfce-settings (2022.1.0-4) unstable; urgency=medium
 
   * [vinzv] add Add common Terminal shortcut
