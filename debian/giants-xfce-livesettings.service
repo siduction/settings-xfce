@@ -1,0 +1,11 @@
+[Unit]
+Description=Xfce cheatcodes in live media
+ConditionPathExists=/usr/share/giants-xfce-settings/
+After=giants-common-setting.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/giants-xfce-settings/xfce-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

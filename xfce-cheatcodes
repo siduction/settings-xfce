@@ -12,6 +12,15 @@ fi
 . /lib/init/fll
 
 ###
+# enale IWD stop wpa_supplicant
+###
+systemctl stop wpa_supplicant.service
+systemctl mask wpa_supplicant.service
+systemctl stop NetworkManager.service
+systemctl enable --now iwd.service
+systemctl start NetworkManager.service
+
+###
 # read in variables from /etc/default/fll-locales
 ###
 if [ -r /etc/default/fll-locales ]; then

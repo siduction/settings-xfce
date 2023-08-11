@@ -3,17 +3,13 @@
 
 set -e
 
-set_sddm_session() {
-        sed -e "s/User=/User=siducer/g" \
-            -e "s/Session=/Session=xfce.desktop/g" \
-            /etc/sddm-*.conf \
-            > /etc/sddm.conf
-}
-
 
 case "$1" in
     configure)
-        set_sddm_session
+        ## NetworkManager ##
+        cp -af /usr/share/giants-xfce-settings/etc/NetworkManager           /etc
+        ## iwd ##
+        cp -af /usr/share/giants-xfce-settings/etc/iwd                      /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
