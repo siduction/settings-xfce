@@ -1,4 +1,4 @@
-Source: giants-xfce-settings
+Source: shine-on-xfce-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,12 +10,12 @@ Homepage: https://github.com/siduction/settings-xfce
 Vcs-Git: https://github.com/siduction/settings-xfce.git
 Vcs-Browser: https://github.com/siduction/settings-xfce.git
 
-Package: giants-xfce-settings
+Package: shine-on-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
-         giants-xfce-artwork,
-         giants-sddm-settings | giants-lightdm-gtk-settings | giants-gdm3-settings,
-         giants-common-settings,
+         shine-on-xfce-artwork,
+         shine-on-sddm-settings | shine-on-lightdm-gtk-settings | shine-on-gdm3-settings,
+         shine-on-common-settings,
   		 greybird-gtk-theme,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
@@ -27,16 +27,16 @@ Description: Xfce settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: giants-xfce-livesettings
+Package: shine-on-xfce-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         giants-xfce-artwork,
-         giants-xfce-settings,
-         giants-common-livesettings,
-         giants-sddm-livesettings
-         | giants-ligthdm-gtk-livesettings
-         | giants-gdm3-livesettings
+         shine-on-xfce-artwork,
+         shine-on-xfce-settings,
+         shine-on-common-livesettings,
+         shine-on-sddm-livesettings
+         | shine-on-ligthdm-gtk-livesettings
+         | shine-on-gdm3-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.

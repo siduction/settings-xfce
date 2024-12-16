@@ -7,9 +7,9 @@ set -e
 case "$1" in
     configure)
         ## NetworkManager ##
-        cp -af /usr/share/giants-xfce-settings/etc/NetworkManager           /etc
+        cp -af /usr/share/shine-on-xfce-settings/etc/NetworkManager           /etc
         ## iwd ##
-        cp -af /usr/share/giants-xfce-settings/etc/iwd                      /etc
+        cp -af /usr/share/shine-on-xfce-settings/etc/iwd                      /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
