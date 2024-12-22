@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Exec=xfce4-appfinder
+Icon=org.xfce.appfinder
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Utility;X-XFCE;
+Name[de]=Anwendungsfinder
+Name=Application Finder
+Comment[de]=Im System installierte Anwendungen finden und starten
+Comment=Find and launch applications installed on your system
+Keywords[de]=Programm;Anwendungen;Lesezeichen;
+Keywords=program;applications;bookmarks;
+X-XFCE-Source=file:///usr/share/applications/xfce4-appfinder.desktop
