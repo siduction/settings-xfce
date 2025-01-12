@@ -19,3 +19,10 @@ window#whiskermenu-window treeview>* {
 #xfce4-terminal-notebook vte-terminal {
     padding: 13px;
 }
+
+/* Do not truncate the desktop icon text but wrap it.*/
+XfdesktopIconView.view {
+	-XfdesktopIconView-tooltip-size: 64;
+	-XfdesktopIconView-ellipsize-icon-labels: 1;
+	-XfdesktopIconView-cell-text-width-proportion: 2.1;
+}
