@@ -25,4 +25,5 @@ XfdesktopIconView.view {
 	-XfdesktopIconView-tooltip-size: 64;
 	-XfdesktopIconView-ellipsize-icon-labels: 1;
 	-XfdesktopIconView-cell-text-width-proportion: 2.1;
+	background: transparent;
 }

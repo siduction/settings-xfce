@@ -18,16 +18,5 @@
       <property name="show-removable" type="bool" value="false"/>
       <property name="show-filesystem" type="bool" value="false"/>
     </property>
-    <property name="gravity" type="int" value="2"/>
-    <property name="primary" type="bool" value="true"/>
-    <property name="icon-size" type="uint" value="48"/>
-    <property name="tooltip-size" type="double" value="48"/>
-    <property name="use-custom-label-background-color" type="bool" value="true"/>
-    <property name="label-background-color" type="array">
-      <value type="double" value="0"/>
-      <value type="double" value="0"/>
-      <value type="double" value="0"/>
-      <value type="double" value="0"/>
-    </property>
   </property>
 </channel>
