@@ -1,2 +1,5 @@
-live             usr/share/shine-on-xfce-settings/
-xfce-cheatcodes  usr/share/shine-on-xfce-settings
+live                       usr/share/shine-on-xfce-settings/
+xfce-cheatcodes            usr/share/shine-on-xfce-settings
+xfce-desktop-settings.sh   usr/share/siduction-scripts/
+themes/greybird/*          usr/share/themes/Greybird/xfwm4/
+themes/greybird-dark/*     usr/share/themes/Greybird-dark/xfwm4/

@@ -25,29 +25,21 @@ configs:
     "/home/siducer":
       row: 0
       col: 0
-    "trash:///":
-      row: 1
-      col: 0
-    "/home/siducer/Desktop/siduction-manual.desktop":
-      row: 2
-      col: 0
-    "c096dbd0-f5f7-4072-9737-d560bd7aaf15":
-      row: 4
-      col: 0
-      last_seen: 1734868396476979
-    "/home/siducer/Desktop/calamares.desktop":
-      row: 5
-      col: 0
-    "12BA-815C":
-      row: 3
-      col: 0
-      last_seen: 1734868396473833
-    "/home/siducer/Desktop/chroot-helper.desktop":
-      row: 4
-      col: 0
     "/":
       row: 1
       col: 0
-    "/home/siducer/Desktop/siduction-irc.desktop":
-      row: 3
+    "trash:///":
+      row: 7
       col: 0
+    "/home/siducer/Desktop/siduction-irc.desktop":
+      row: 0
+      col: 1
+    "/home/siducer/Desktop/siduction-manual.desktop":
+      row: 0
+      col: 2
+    "/home/siducer/Desktop/chroot-helper.desktop":
+      row: 0
+      col: 3
+    "/home/siducer/Desktop/calamares.desktop":
+      row: 0
+      col: 4

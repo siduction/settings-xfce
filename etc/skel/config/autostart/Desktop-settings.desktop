@@ -2,9 +2,9 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=Metadata
+Name=Desktop-settings
 Comment=
-Exec=/usr/share/siduction-scripts/xfce_icon_add_attrib.sh
+Exec=/usr/share/siduction-scripts/xfce-desktop-settings.sh
 OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
