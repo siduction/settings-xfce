@@ -1,3 +1,10 @@
+shine-on-xfce-settings (2025.1-2) unstable; urgency=medium
+
+  [ Axel Konrad ]
+  * Reverse the unsuccessful theme hack.
+
+ -- Torsten Wohlfarth <towo@siduction.org>
+
 shine-on-xfce-settings (2025.1-1) unstable; urgency=medium
 
   [ Axel Konrad ]
