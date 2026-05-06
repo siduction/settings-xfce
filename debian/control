@@ -1,4 +1,4 @@
-Source: shine-on-xfce-settings
+Source: big-crime-xfce-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,12 +10,12 @@ Homepage: https://github.com/siduction/settings-xfce
 Vcs-Git: https://github.com/siduction/settings-xfce.git
 Vcs-Browser: https://github.com/siduction/settings-xfce.git
 
-Package: shine-on-xfce-settings
+Package: big-crime-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
-         shine-on-xfce-artwork,
-         shine-on-sddm-settings | shine-on-lightdm-gtk-settings | shine-on-gdm3-settings,
-         shine-on-common-settings,
+         big-crime-xfce-artwork,
+         big-crime-sddm-settings | big-crime-lightdm-gtk-settings | big-crime-gdm3-settings,
+         big-crime-common-settings,
   		 greybird-gtk-theme,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
@@ -27,16 +27,16 @@ Description: Xfce settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: shine-on-xfce-livesettings
+Package: big-crime-xfce-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         shine-on-xfce-artwork,
-         shine-on-xfce-settings,
-         shine-on-common-livesettings,
-         shine-on-sddm-livesettings
-         | shine-on-ligthdm-gtk-livesettings
-         | shine-on-gdm3-livesettings
+         big-crime-xfce-artwork,
+         big-crime-xfce-settings,
+         big-crime-common-livesettings,
+         big-crime-sddm-livesettings
+         | big-crime-ligthdm-gtk-livesettings
+         | big-crime-gdm3-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
