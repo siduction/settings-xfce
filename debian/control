@@ -34,7 +34,7 @@ Depends: ${misc:Depends},
          big-crime-xfce-artwork,
          big-crime-xfce-settings,
          big-crime-common-livesettings,
-         big-crime-ligthdm-gtk-livesettings
+         big-crime-lightdm-gtk-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
