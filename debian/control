@@ -14,7 +14,7 @@ Package: big-crime-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
          big-crime-xfce-artwork,
-         big-crime-sddm-settings | big-crime-lightdm-gtk-settings | big-crime-gdm3-settings,
+         big-crime-lightdm-gtk-settings
          big-crime-common-settings,
   		 greybird-gtk-theme,
          xfwm4 | x-window-manager,
@@ -34,9 +34,7 @@ Depends: ${misc:Depends},
          big-crime-xfce-artwork,
          big-crime-xfce-settings,
          big-crime-common-livesettings,
-         big-crime-sddm-livesettings
-         | big-crime-ligthdm-gtk-livesettings
-         | big-crime-gdm3-livesettings
+         big-crime-ligthdm-gtk-livesettings
 Description: Xfce settings (live mode)
  Provides default settings for appearance and applications of the Xfce
  desktop in live mode.
