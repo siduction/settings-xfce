@@ -14,9 +14,9 @@ Package: big-crime-xfce-settings
 Architecture: all
 Depends: ${misc:Depends},
          big-crime-xfce-artwork,
-         big-crime-lightdm-gtk-settings
+         big-crime-lightdm-gtk-settings,
          big-crime-common-settings,
-  		 greybird-gtk-theme,
+         greybird-gtk-theme,
          xfwm4 | x-window-manager,
          xfce4-clipman-plugin
 Description: Xfce settings (installed mode)
