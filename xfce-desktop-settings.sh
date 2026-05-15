@@ -8,7 +8,7 @@
 
 # DESKTOP (xfce4-desktop)
 ## Same background for all workspaces
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor$(xrandr | grep -m1 connected | awk '{print $1}')/workspace0/last-image -s /usr/share/wallpapers/big-crime.png --create -t string
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor$(xrandr | grep -m1 " connected " | awk '{print $1}')/workspace0/last-image -s /usr/share/wallpapers/big-crime.png --create -t string
 xfconf-query -c xfce4-desktop -p /backdrop/single-workspace-mode -s true --create -t bool
 xfconf-query -c xfce4-desktop -p /backdrop/single-workspace-number -s 0 --create -t int
 
