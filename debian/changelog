@@ -3,7 +3,10 @@ big-crime-xfce-settings (2026.1-4) unstable; urgency=medium
   [ Axel Konrad ]
   * xfce-desktop-settings.sh: Fix grep pattern.
 
- -- Axel Konrad <ak-li@siduction.org>  Fri, 15 May 2026 13:40:28 +0200
+  [ Torsten Wohlfarth ]
+  * packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 16 May 2026 10:53:04 +0200
 
 big-crime-xfce-settings (2026.1-3) unstable; urgency=medium
 
