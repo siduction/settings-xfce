@@ -1,3 +1,16 @@
+big-crime-xfce-settings (2026.1-5) unstable; urgency=medium
+
+  [ Axel Konrad ]
+  * icons.screen0.yaml deleted.
+    Configuration is no longer possible as of version 4.20
+  * xsettings.xml - Set theme to Graybird
+  * xfce4-terminal.xml - Set color palette tango
+
+  [ Torsten Wohlfarth ]
+  * packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  
+
 big-crime-xfce-settings (2026.1-4) unstable; urgency=medium
 
   [ Axel Konrad ]
