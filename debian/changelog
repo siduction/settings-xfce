@@ -3,6 +3,11 @@ big-crime-xfce-settings (2026.1-6) unstable; urgency=medium
   [ Axel Konrad ]
   * xfce-desktop-stttings.sh: Fix wallpaper settings
 
+  [ Torsten Wohlfarth ]
+  * fix big-crime-xfce-settings.install
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 06 Aug 2026 15:02:10 +0200
+
 big-crime-xfce-settings (2026.1-5) unstable; urgency=medium
 
   [ Axel Konrad ]
@@ -14,7 +19,7 @@ big-crime-xfce-settings (2026.1-5) unstable; urgency=medium
   [ Torsten Wohlfarth ]
   * packaging
 
- -- Torsten Wohlfarth <towo@siduction.org>  
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 16 Jun 2026 10:53:04 +0200
 
 big-crime-xfce-settings (2026.1-4) unstable; urgency=medium
 
