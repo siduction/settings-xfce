@@ -42,6 +42,7 @@
       <property name="items" type="array">
         <value type="string" value="thunar.desktop"/>
       </property>
+    </property>
     <property name="plugin-15" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="default-webbrowser.desktop"/>
@@ -106,6 +107,8 @@
         <value type="int" value="15"/>
         <value type="int" value="16"/>
         <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
         <value type="int" value="20"/>
       </property>
     </property>
