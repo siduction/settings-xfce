@@ -7,6 +7,10 @@ big-crime-xfce-settings (2026.1-7) unstable; urgency=medium
   * xfce-desktop-settings.sh: Set the background to 'dark'.
   * changelog: Updated
 
+  [ Torsten Wohlfarth ]
+  * packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 23 Aug 2026 17:44:06 +0200
 
 big-crime-xfce-settings (2026.1-6) unstable; urgency=medium
 
