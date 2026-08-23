@@ -1,3 +1,9 @@
+big-crime-xfce-settings (2026.1-8) UNRELEASED; urgency=medium
+
+  * Fix xml code
+
+ -- Axel Konrad <axel.konrad@mailbox.org>  Sun, 23 Aug 2026 20:56:34 +0200
+
 big-crime-xfce-settings (2026.1-7) unstable; urgency=medium
 
   [ Axel Konrad ]
