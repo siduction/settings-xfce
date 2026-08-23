@@ -2,30 +2,6 @@
 
 <channel name="xfce4-panel" version="1.0">
   <property name="plugins" type="empty">
-    <property name="plugin-7" type="string" value="separator">
-      <property name="items" type="array">
-        <value type="string" value="17348198791.desktop"/>
-      </property>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-12" type="string" value="separator"/>
-    <property name="plugin-15" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="17348683953.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-17" type="string" value="separator"/>
-    <property name="plugin-18" type="string" value="directorymenu">
-      <property name="items" type="array">
-        <value type="string" value="17348200123.desktop"/>
-      </property>
-      <property name="base-directory" type="string" value="/home/siducer"/>
-    </property>
-    <property name="plugin-19" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="17348200374.desktop"/>
-      </property>
-    </property>
     <property name="plugin-1" type="string" value="applicationsmenu"/>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
@@ -47,27 +23,50 @@
         <value type="string" value="blueman"/>
       </property>
     </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
     <property name="plugin-8" type="string" value="clock"/>
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-10" type="string" value="actions"/>
     <property name="plugin-11" type="string" value="showdesktop"/>
+    <property name="plugin-12" type="string" value="separator"/>
     <property name="plugin-13" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="17348683951.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
       </property>
     </property>
     <property name="plugin-14" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="17348683952.desktop"/>
+        <value type="string" value="thunar.desktop"/>
+      </property>
+    <property name="plugin-15" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="default-webbrowser.desktop"/>
       </property>
     </property>
     <property name="plugin-16" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="17348683954.desktop"/>
+        <value type="string" value="thunderbird.desktop"/>
       </property>
     </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="xfce4-appfinder.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="separator"/>
+    <property name="plugin-19" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/siducer"/>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="xfce-settings-manager.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="battery"/>
   </property>
   <property name="panels" type="array">
     <value type="int" value="1"/>
@@ -80,6 +79,7 @@
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
+        <value type="int" value="21"/>
         <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
@@ -106,7 +106,7 @@
         <value type="int" value="15"/>
         <value type="int" value="16"/>
         <value type="int" value="17"/>
-        <value type="int" value="18"/>
+        <value type="int" value="20"/>
       </property>
     </property>
   </property>

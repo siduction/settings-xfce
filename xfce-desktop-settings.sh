@@ -14,11 +14,11 @@
 Monitor=$(xrandr | grep -m1 " connected " | sed 's|+.*$||')
 Iface=$(awk '{print $1}' <<< $Monitor)
 SizeFile=$(awk '{print $'"$(wc -w <<< "$Monitor")"' ".png"}' <<< $Monitor)
-ImagePath="/usr/share/wallpapers/big-crime/contents/images/"
+ImagePath="/usr/share/wallpapers/big-crime/contents/images_dark/"
 if [ -f "$ImagePath$SizeFile" ]; then
 	xfconf-query -c xfce4-desktop -pn /backdrop/screen0/monitor"$Iface"/workspace0/last-image -t string -s "$ImagePath$SizeFile" --create
 else
-	xfconf-query -c xfce4-desktop -pn /backdrop/screen0/monitor"$Iface"/workspace0/last-image -t string -s /usr/share/wallpapers/big-crime.png --create
+	xfconf-query -c xfce4-desktop -pn /backdrop/screen0/monitor"$Iface"/workspace0/last-image -t string -s /usr/share/wallpapers/big-crime_dark.png --create
 	xfconf-query -c xfce4-desktop -pn /backdrop/screen0/monitor"$Iface"/workspace0/image-style -t uint -s 3 --create
 fi
 xfconf-query -c xfce4-desktop -pn /backdrop/single-workspace-mode -s true --create -t bool

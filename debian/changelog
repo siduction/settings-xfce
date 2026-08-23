@@ -1,3 +1,13 @@
+big-crime-xfce-settings (2026.1-7) unstable; urgency=medium
+
+  [ Axel Konrad ]
+  * Add the icons.screen0.yaml file back to the directory config/xfce4/desktop.
+  * xsettings.xml: use graybird-dark
+  * panel: Updates to xfce4-panel.xml and the associated xfce4/panel/ directory.
+  * xfce-desktop-settings.sh: Set the background to 'dark'.
+  * changelog: Updated
+
+
 big-crime-xfce-settings (2026.1-6) unstable; urgency=medium
 
   [ Axel Konrad ]
