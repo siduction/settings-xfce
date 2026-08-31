@@ -5,6 +5,11 @@
 # Name: xfce-desktop-settings.sh
 # Run as user.
 #
+if [ "$(id -u)" -eq "0" ]; then
+	echo "This script must be run as a normal user, not as root."
+	exit 1
+fi
+
 
 #------------------
 # DESKTOP (xfce4-desktop)
@@ -47,6 +52,31 @@ xfconf-query -c xfce4-panel -p /plugins/plugin-1/show-button-title -s false -t b
 
 ## Systray plugin: Automatically adjust icon size
 xfconf-query -c xfce4-panel -p /plugins/plugin-6/icon-size -t uint -s 0 --create
+
+## Add the battery plugin into primary panel if a battery is present.
+if grep -q 'ID-[0-9]' <<< $(inxi -B); then
+	# Determine the list of plugins for the primary panel.
+	pluginlist=$(xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids -lv \
+				| sed -e 's|.*\[||' -e 's|\]||')
+	# Deleting the plugin-ids array and set a new one.
+	if [ "X$pluginlist" = "X1,2,3,4,5,6,7,8,9,10" ]; then
+		# Add number of the battery plugin to list
+		pluginlist=$(sed -e 's|6,7|6,21,7|' -e 's|,| |g' <<< "$pluginlist")
+		echo "Neue Liste: $pluginlist"
+
+		# Deleting the plugin-ids array.
+		xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids -rR
+		
+		# Create a new plugin-ids array.
+		for i in $pluginlist; do
+			plugin_array="$plugin_array -t int -s $i"
+		done
+		xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids $plugin_array --create
+		
+		# Restart xfce4-panel
+		xfce4-panel -r
+	fi
+fi
 
 
 # -----------------
