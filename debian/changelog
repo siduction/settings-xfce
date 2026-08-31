@@ -1,3 +1,9 @@
+big-crime-xfce-settings (2026.1-9) UNRELEASED; urgency=medium
+
+  * Add the battery plugin into primary panel if a battery is present.
+
+ -- Axel Konrad <axel.konrad@mailbox.org>  Mon, 31 Aug 2026 19:13:48 +0200
+
 big-crime-xfce-settings (2026.1-8) unstable; urgency=medium
 
   [ Axel Konrad ]
