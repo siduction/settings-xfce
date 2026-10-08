@@ -1,0 +1,16 @@
+  icons:
+    "/home/siducer":
+      row: 0
+      col: 0
+    "/":
+      row: 1
+      col: 0
+    "trash:///":
+      row: 7
+      col: 0
+    "/home/siducer/Desktop/siduction-irc.desktop":
+      row: 0
+      col: 1
+    "/home/siducer/Desktop/siduction-manual.desktop":
+      row: 0
+      col: 2
