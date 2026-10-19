@@ -1,3 +1,10 @@
+big-crime-xfce-settings (2026.1-10) UNRELEASED; urgency=medium
+
+  [ Axel Konrad ]
+  * Prepared the placement of the desktop icons in the installed system.
+
+ -- Axel Konrad <axel.konrad@mailbox.org>  Thu, 08 Oct 2026 16:04:38 +0200
+
 big-crime-xfce-settings (2026.1-9) unstable; urgency=medium
 
   [ Axel Konrad ]
